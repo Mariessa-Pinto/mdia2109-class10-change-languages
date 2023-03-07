@@ -2,5 +2,22 @@
     "page.home.head.title": "Example Next.js i18n",
     "page.home.head.meta.description": "Example Next.js i18n - Français",
     "page.home.title": "Bienvenue sur la page d'accueil",
-    "page.home.description": "Vous consultez actuellement la page d'accueil en français."
+    "page.home.description": "Vous consultez actuellement la page d'accueil en français.",
+    "page.home.header.linkone": "CENTRE D'APPRENTISSAGE",
+    "page.home.header.linktwo": "MONBCIT",
+    "page.home.header.linkthree": "ÉTUIDANTS",
+    "page.home.header.linkfour": "PERSONNEL",
+    "page.home.header.linkfive": "ÉVÉNEMENTS",
+    "page.home.nav.link.one": "Programmes & cours",
+    "page.home.nav.link.two": "Admission",
+    "page.home.nav.link.three": "Services aux Étudiants",
+    "page.home.nav.link.four": "Recherch",
+    "page.home.nav.link.five": "À Propos du BCIT",
+    "page.home.banner.breadcrumb.one": "ÉTUDE",
+    "page.home.banner.breadcrumb.two": "AFFAIRES & MÉDIAS",
+    "page.home.banner.breadcrumb.three": "CONCEPTION ET DÉVELOPMENT NUMÉRIQUE",
+    "page.home.banner.header": "Conception et développement numérique",
+    "page.home.banner.subtitle": "Diplôme  /  À temps plein  /  École de commerce + Médias",
+    "page.home.banner.button.apply": "APPLIQUER MAINTENANT",
+    "page.home.banner.button.contact": "CONTACTEZ-NOUS"
 }

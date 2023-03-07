@@ -2,5 +2,22 @@
     "page.home.head.title": "Next.js i18n example",
     "page.home.head.meta.description": "Next.js i18n example - English",
     "page.home.title": "Welcome to the home page",
-    "page.home.description": "You are currently viewwing the home page in english"
+    "page.home.description": "You are currently viewwing the home page in english",
+    "page.home.header.linkone": "LEARNING HUB",
+    "page.home.header.linktwo": "MYBCIT",
+    "page.home.header.linkthree": "STUDENTS",
+    "page.home.header.linkfour": "STAFF",
+    "page.home.header.linkfive": "EVENTS",
+    "page.home.nav.link.one": "Programs & Courses",
+    "page.home.nav.link.two": "Admission",
+    "page.home.nav.link.three": "Student Services",
+    "page.home.nav.link.four": "Research",
+    "page.home.nav.link.five": "About BCIT",
+    "page.home.banner.breadcrumb.one": "STUDY",
+    "page.home.banner.breadcrumb.two": "BUSINESS & MEDIA",
+    "page.home.banner.breadcrumb.three": "DIGITAL DESIGN AND DEVELOPMENT",
+    "page.home.banner.header": "Digital Design and Development",
+    "page.home.banner.subtitle": "Diploma  /  Full-time  /  School of Business + Media",
+    "page.home.banner.button.apply": "APPLY NOW",
+    "page.home.banner.button.contact": "CONTACT US"
 }
