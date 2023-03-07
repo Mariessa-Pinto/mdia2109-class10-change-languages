@@ -1,0 +1,71 @@
+.breadcrumb {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: var(--blue);
+    padding: 0.5rem 6rem 0.5rem 6rem;
+    align-items: center;
+    color: var(--white);
+    font-size: var(--small-font);
+}
+
+.bigImage {
+    background-color: var(--over-image);
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 6rem 0.5rem 6rem;
+    color: var(--white);
+}
+
+.image {
+    background-image: url('../../public/img/bcitImage.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    height: 400px;
+}
+
+.header {
+    font-size: 54px;
+    max-width: 660px;
+}
+
+.leftBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 1rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1rem 0 3rem 0;
+    gap: 1rem;
+}
+
+.button {
+    background-color: transparent;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    color: var(--white);
+    border: 1px solid var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.button:hover {
+    background-color: var(--bright-blue);
+    border: 1px solid var(--bright-blue);
+}
