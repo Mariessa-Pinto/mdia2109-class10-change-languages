@@ -4,6 +4,10 @@ import styles from '@/styles/Home.module.css'
 import { useRouter } from 'next/router'
 import { FormattedMessage, useIntl } from 'react-intl'
 import Link from 'next/link'
+import Navbar from '../components/Navbar'
+import Banner from '../components/Banner'
+import Sidebar from '../components/Sidebar'
+import Footer from '../components/Footer'
 
 export default function Home({dir}) {
 
@@ -24,23 +28,25 @@ export default function Home({dir}) {
         <link rel="icon" href="/favicon.ico" hrefLang='en'/>
         <link rel="icon" href="/favicon.ico" hrefLang='fr'/>
       </Head>
-      <header>
-        <div>
-          {[...locales].sort().map((locale) => (
-            <Link key={locale} href="/" locale={locale}>
-              <div>{locale}</div>
-            </Link>
-          ))}
-        </div>
-      </header>
+      <Navbar/>
+      <Banner/>
       <main dir={dir} className={styles.main}>
-            <h1>
+          <div className={styles.sidebar}>
+            <Sidebar/>
+          </div>
+          <div className={styles.mainContent}>
+
+          </div>
+            
+            
+            {/* <h1>
               <FormattedMessage id="page.home.title" values={{ b: (info) => <b>{info}</b>}}/>
             </h1>
             <p className={styles.desctiption}>
               <FormattedMessage id="page.home.description"/>
-            </p>
+            </p> */}
       </main>
+      <Footer/>
     </>
   )
 }
