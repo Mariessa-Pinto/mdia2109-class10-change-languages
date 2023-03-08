@@ -1,0 +1,49 @@
+.sidebar {
+    width: 22rem;
+}
+
+.aboutList {
+    list-style: none;
+    padding: 1rem;
+}
+
+.aboutListItem {
+    padding: 1rem 0;
+}
+
+.overviewList {
+    list-style: none;
+}
+
+.header {
+    color: var(--blue);
+}
+
+.allPrograms {
+    color: var(--bright-blue);
+}
+
+.dates {
+    color: var(--bright-blue);
+}
+
+.headerBox {
+    padding: 1rem;
+}
+
+.info {
+    padding: 1rem;
+}
+
+.headerInfo {
+    color: var(--blue);
+    padding-bottom: 0.75rem;
+}
+
+.infoText {
+    width: 15rem;
+}
+
+.infoList {
+    padding: 1rem 1rem 1rem 2rem;
+}
