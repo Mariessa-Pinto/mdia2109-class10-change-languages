@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0 6rem 3rem;
+    justify-content: space-between;
+}
+
+.smallText {
+    display: flex;
+    flex-direction: row;
+}

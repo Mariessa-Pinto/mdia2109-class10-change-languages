@@ -32,6 +32,16 @@
   font-size: 18px;
   line-height: 2.5rem;
   margin-bottom: 24px;
+  list-style: none;
+}
+
+.list li::before {
+  content: "\2022"; 
+  color: var(--blue);
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1rem;
+  margin-left: -1em; 
 }
 
 .subheader {
@@ -46,7 +56,7 @@
 .underlined {
   color: var(--bright-blue);
   border-bottom: 3.5px solid var(--yellow);
-  max-width: 16.3rem;
+  width: fit-content;
 }
 
 .controls {
@@ -54,6 +64,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 6rem;
+  padding: 2rem 1rem;
 }
 
 .notice {
@@ -72,7 +83,7 @@
   color: var(--blue);
   font-weight: 600;
   padding-top: 0.5rem;
-  max-width: 10rem;
+  max-width: 13rem;
   padding-bottom: 0.1rem;
 }
 
@@ -89,3 +100,4 @@
   max-width: 10rem;
   padding-bottom: 0.1rem;
 }
+
