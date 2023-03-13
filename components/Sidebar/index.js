@@ -32,8 +32,8 @@ export default function Sidebar() {
                 <p className={styles.infoText}><FormattedMessage id="page.home.sidebar.info.explore"/></p>
             </div>
             <div className={styles.overview}>
-                <h2 className={styles.header}><FormattedMessage id="page.home.sidebar.overview.header"/></h2>
-                <ul>
+                <h2 className={styles.headerOverview}><FormattedMessage id="page.home.sidebar.overview.header"/></h2>
+                <ul className={styles.overviewListWhole}>
                     <li className={styles.overviewList}><FormattedMessage id="page.home.sidebar.overview.credential"/></li>
                     <li className={styles.overviewList}><FormattedMessage id="page.home.sidebar.overview.format"/></li>
                     <li className={styles.overviewList}><FormattedMessage id="page.home.sidebar.overview.length"/></li>
@@ -46,9 +46,9 @@ export default function Sidebar() {
                 <h5 className={styles.allPrograms}><FormattedMessage id="page.home.sidebar.overview.link"/></h5>
             </div>
             <div className={styles.recent}>
-                <h2 className={styles.header}><FormattedMessage id="page.home.sidebar.recent.header"/></h2>
-                <p><FormattedMessage id="page.home.sidebar.recent.link.one"/></p>
-                <p><FormattedMessage id="page.home.sidebar.recent.link.two"/></p>
+                <h2 className={styles.headerOverview}><FormattedMessage id="page.home.sidebar.recent.header"/></h2>
+                <p className={styles.programName}><FormattedMessage id="page.home.sidebar.recent.link.one"/></p>
+                <p className={styles.programName}><FormattedMessage id="page.home.sidebar.recent.link.two"/></p>
             </div>
         </div>
     )

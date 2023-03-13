@@ -15,12 +15,11 @@
     list-style: none;
 }
 
-.header {
-    color: var(--blue);
-}
-
 .allPrograms {
     color: var(--bright-blue);
+    padding: 0rem 1rem 1rem 1rem;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .dates {
@@ -38,6 +37,7 @@
 .headerInfo {
     color: var(--blue);
     padding-bottom: 0.75rem;
+    font-size: 28px;
 }
 
 .infoText {
@@ -46,4 +46,30 @@
 
 .infoList {
     padding: 1rem 1rem 1rem 2rem;
+}
+
+.header {
+
+    max-width: 20rem;
+    font-size: 24px;
+    color: var(--blue);
+}
+
+.headerOverview {
+    padding: 1rem;
+    max-width: 20rem;
+    font-size: 28px;
+    color: var(--blue);
+}
+
+.overviewListWhole {
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.programName {
+    padding: 1rem 1rem 0rem 1rem;
+    max-width: 19rem;
 }
