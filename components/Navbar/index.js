@@ -32,9 +32,9 @@ export default function Navbar() {
                     <ul className={styles.listTwo}>
                         <li className={styles.link}>
                             <Image
-                            src={"/logo/BCIT-color.png"}
+                            src={"/logo/BCITcolor.png"}
                             alt={"BCIT logo"}
-                            width={200}
+                            width={115}
                             height={110}
                             />
                         </li>
