@@ -35,10 +35,10 @@ export default function Home({dir}) {
             <Sidebar/>
           </div>
           <div className={styles.mainContent}>
-            <h2><FormattedMessage id="page.home.main.header"/></h2>
-            <p><FormattedMessage id="page.home.main.para.one"/></p>
-            <p><FormattedMessage id="page.home.main.para.two"/></p>
-            <ul>
+            <h2 className={styles.mainHeader}><FormattedMessage id="page.home.main.header"/></h2>
+            <p className={styles.para}><FormattedMessage id="page.home.main.para.one"/></p>
+            <p className={styles.listTitle}><FormattedMessage id="page.home.main.para.two"/></p>
+            <ul className={styles.list}>
               <li><FormattedMessage id="page.home.main.list.one"/></li>
               <li><FormattedMessage id="page.home.main.list.two"/></li>
               <li><FormattedMessage id="page.home.main.list.three"/></li>
@@ -52,23 +52,23 @@ export default function Home({dir}) {
               <li><FormattedMessage id="page.home.main.list.eleven"/></li>
               <li><FormattedMessage id="page.home.main.list.twelve"/></li>
             </ul>
-            <h3><FormattedMessage id="page.home.main.subheader"/></h3>
-            <p><FormattedMessage id="page.home.main.sectiontwo.para.one"/></p>
-            <p><FormattedMessage id="page.home.main.sectiontwo.para.two"/></p>
-            <ul>
-              <li><FormattedMessage id="page.home.main.sectiontwo.listitem"/></li>
+            <h3 className={styles.subheader}><FormattedMessage id="page.home.main.subheader"/></h3>
+            <p className={styles.para}><FormattedMessage id="page.home.main.sectiontwo.para.one"/></p>
+            <p className={styles.para}><FormattedMessage id="page.home.main.sectiontwo.para.two"/></p>
+            <ul className={styles.list}>
+              <li className={styles.underlined}><FormattedMessage id="page.home.main.sectiontwo.listitem"/></li>
             </ul>
             <div className={styles.controls}>
               <div className={styles.back}>
-                <p><FormattedMessage id="page.home.main.goback"/></p>
-                <p><FormattedMessage id="page.home.main.goback.title"/></p>
+                <p className={styles.goBack}><FormattedMessage id="page.home.main.goback"/></p>
+                <p className={styles.details}><FormattedMessage id="page.home.main.goback.title"/></p>
               </div>
               <div className={styles.forward}>
-                <p><FormattedMessage id="page.home.main.next"/></p>
-                <p><FormattedMessage id="page.home.main.next.title"/></p>
+                <p className={styles.nextUp}><FormattedMessage id="page.home.main.next"/></p>
+                <p className={styles.contact}><FormattedMessage id="page.home.main.next.title"/></p>
               </div>
             </div>
-            <p><FormattedMessage id="page.home.main.bottom.para"/></p>
+            <p className={styles.notice}><FormattedMessage id="page.home.main.bottom.para"/></p>
           </div>
             
             
