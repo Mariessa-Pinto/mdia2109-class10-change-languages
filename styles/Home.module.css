@@ -101,3 +101,9 @@
   padding-bottom: 0.1rem;
 }
 
+.underlinedBlue {
+  border-bottom: 3.5px solid var(--yellow);
+  color: var(--bright-blue);
+}
+
+

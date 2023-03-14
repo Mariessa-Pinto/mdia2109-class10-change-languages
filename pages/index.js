@@ -53,8 +53,8 @@ export default function Home({dir}) {
               <li><FormattedMessage id="page.home.main.list.twelve"/></li>
             </ul>
             <h3 className={styles.subheader}><FormattedMessage id="page.home.main.subheader"/></h3>
-            <p className={styles.para}><FormattedMessage id="page.home.main.sectiontwo.para.one"/></p>
-            <p className={styles.para}><FormattedMessage id="page.home.main.sectiontwo.para.two"/></p>
+            <p className={styles.para}><FormattedMessage id="page.home.main.sectiontwo.para.one"/><span className={styles.underlinedBlue}><FormattedMessage id="page.home.main.sectiontwo.para.one.blue"/></span><FormattedMessage id="page.home.main.sectiontwo.para.one.two"/></p>
+            <p className={styles.para}><FormattedMessage id="page.home.main.sectiontwo.para.two"/><span className={styles.underlinedBlue}><FormattedMessage id="page.home.main.sectiontwo.para.two.blue"/></span><FormattedMessage id="page.home.main.sectiontwo.para.two.two"/></p>
             <ul className={styles.list}>
               <li className={styles.underlined}><FormattedMessage id="page.home.main.sectiontwo.listitem"/></li>
             </ul>
@@ -70,14 +70,6 @@ export default function Home({dir}) {
             </div>
             <p className={styles.notice}><FormattedMessage id="page.home.main.bottom.para"/></p>
           </div>
-            
-            
-            {/* <h1>
-              <FormattedMessage id="page.home.title" values={{ b: (info) => <b>{info}</b>}}/>
-            </h1>
-            <p className={styles.desctiption}>
-              <FormattedMessage id="page.home.description"/>
-            </p> */}
       </main>
       <Footer/>
     </>

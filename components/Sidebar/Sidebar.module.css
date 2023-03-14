@@ -1,5 +1,6 @@
 .sidebar {
-    width: 22rem;
+    width: 18rem;
+    margin-right: 2rem;
 }
 
 .aboutList {
@@ -9,6 +10,12 @@
 
 .aboutListItem {
     padding: 1rem 0;
+    color: var(--blue);
+}
+
+.aboutListItemActive {
+    padding: 1rem 0;
+    color: var(--bright-blue);
 }
 
 .overviewList {
@@ -32,6 +39,7 @@
 
 .info {
     padding: 1rem;
+    color: var(--blue);
 }
 
 .headerInfo {
@@ -66,10 +74,16 @@
     padding: 1rem 1rem 1rem 1rem;
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 0.3rem;
+    color: var(--blue);
 }
 
 .programName {
     padding: 1rem 1rem 0rem 1rem;
     max-width: 19rem;
+    color: var(--blue);
+}
+
+.blue {
+    color: var(--bright-blue);
 }
