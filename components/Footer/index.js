@@ -6,6 +6,11 @@ import Link from 'next/link'
 export default function Footer() {
     return (
         <div className={styles.footer}>
+            <div className={styles.mobileSmall}>
+                <Link href={'https://www.bcit.ca/it-services/website-feedback/?from=https%3A%2F%2Fwww.bcit.ca%2Fprograms%2Fdigital-design-and-development-diploma-full-time-6515dipma%2F%3Fgclid%3DCj0KCQjwtsCgBhDEARIsAE7RYh0kpvYS3GumL6QaO3hybpQ5yZZvWB3jWAEJKeJIijLjvJbV5MV74wYaAmqdEALw_wcB%26gclsrc%3Daw.ds'}><p className={styles.smallTextHover}><FormattedMessage id="page.home.footer.col.four.small.one"/></p></Link>
+                <Link href={'https://www.bcit.ca/copyright/'}><p className={styles.smallTextHover}><FormattedMessage id="page.home.footer.col.four.small.two"/></p></Link>
+                <Link href={'https://www.bcit.ca/privacy/'}><p className={styles.smallTextHover}><FormattedMessage id="page.home.footer.col.four.small.three"/></p></Link>
+            </div>
             <div className={styles.colOne}>
                 <div className={styles.topSec}>
                     <div className={styles.headerWithLine}>

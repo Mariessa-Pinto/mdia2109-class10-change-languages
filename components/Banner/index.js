@@ -27,7 +27,7 @@ export default function Banner() {
                 <div className={styles.bigImage}>
                     <div className={styles.leftBanner}>
                         <h1 className={styles.header}><FormattedMessage id="page.home.banner.header"/></h1>
-                        <p><FormattedMessage id="page.home.banner.subtitle"/></p>
+                        <p className={styles.program}><FormattedMessage id="page.home.banner.subtitle"/></p>
                         <div className={styles.icons}>
                             <Link href={'https://www.bcit.ca/programs/digital-design-and-development-diploma-full-time-6515dipma/?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh0kpvYS3GumL6QaO3hybpQ5yZZvWB3jWAEJKeJIijLjvJbV5MV74wYaAmqdEALw_wcB&gclsrc=aw.ds#'}><Image
                                 src={"/icon/printer.svg"}

@@ -1,5 +1,11 @@
 .navbar {
     width: 100%;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .header {
@@ -126,5 +132,30 @@
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
-
+    .list {
+        display: none;
+    }
+    .header {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+    .linkTwo {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    .listTwo {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+    .searchIcon {
+        display: block;
+        margin-left: 8rem;
+    }
+    .hamIcon {
+        display: block;
+    }
 }

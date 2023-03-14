@@ -188,7 +188,41 @@
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
-
+  .tablet {
+    display: block;
+  }
+  .main {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+  .sidebar {
+    display: none;
+  }
+  .headerBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem 1rem 3rem;
+  }
+  .plus {
+    font-size: 36px;
+    color: var(--bright-blue);
+  }
+  .notice {
+    display: none;
+  }
+  .controls {
+    margin-bottom: 3rem;
+    font-size: 14px;
+  }
+  .noticeTablet {
+    display: block;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 12px;
+  }
 }
 
 

@@ -126,5 +126,30 @@
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
-
+    .about {
+        display: none;
+    }
+    .sidebar {
+        width: 100%;
+        margin-right: 2rem;
+    }
+    .infoText {
+        width: 100%;
+    }
+    .info {
+        padding: 1rem 0.5rem;
+    }
+    .headerOverview {
+        padding: 1rem 0.5rem;
+    }
+    .overviewListWhole {
+        padding: 1rem 0.5rem 1rem 0.5rem;
+    }
+    .allPrograms {
+        padding: 0rem 0.5rem 1rem 0.5rem;
+    }
+    .programName {
+        padding: 1rem 2rem 0rem 0.5rem;
+    }
+    
 }
