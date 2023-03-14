@@ -59,6 +59,11 @@
   width: fit-content;
 }
 
+.underlined:hover {
+  border-bottom: 3.5px solid var(--blue);
+  transition: 300ms;
+}
+
 .controls {
   display: flex;
   flex-direction: row;
@@ -87,6 +92,11 @@
   padding-bottom: 0.1rem;
 }
 
+.details:hover {
+  border-bottom: 3.5px solid var(--blue);
+  transition: 300ms;
+}
+
 .nextUp {
   color: var(--dark-grey);
   text-align: right;
@@ -101,9 +111,19 @@
   padding-bottom: 0.1rem;
 }
 
+.contact:hover {
+  border-bottom: 3.5px solid var(--blue);
+  transition: 300ms;
+}
+
 .underlinedBlue {
   border-bottom: 3.5px solid var(--yellow);
   color: var(--bright-blue);
+}
+
+.underlinedBlue:hover {
+  border-bottom: 3.5px solid var(--blue);
+  transition: 300ms;
 }
 
 
