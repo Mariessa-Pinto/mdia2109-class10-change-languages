@@ -32,7 +32,11 @@ export default function Home({dir}) {
       <Banner/>
       <main dir={dir} className={styles.main}>
           <div className={styles.sidebar}>
-            <Sidebar/>
+            <Sidebar className={styles.sidebar}/>
+          </div>
+          <div className={styles.headerBox}>
+            <h4 className={styles.header}><FormattedMessage id="page.home.sidebar.about.header"/></h4>
+            <p className={styles.plus}>+</p>
           </div>
           <div className={styles.mainContent}>
             <h2 className={styles.mainHeader}><FormattedMessage id="page.home.main.header"/></h2>
@@ -53,22 +57,41 @@ export default function Home({dir}) {
               <li><FormattedMessage id="page.home.main.list.twelve"/></li>
             </ul>
             <h3 className={styles.subheader}><FormattedMessage id="page.home.main.subheader"/></h3>
-            <p className={styles.para}><FormattedMessage id="page.home.main.sectiontwo.para.one"/><span className={styles.underlinedBlue}><FormattedMessage id="page.home.main.sectiontwo.para.one.blue"/></span><FormattedMessage id="page.home.main.sectiontwo.para.one.two"/></p>
-            <p className={styles.para}><FormattedMessage id="page.home.main.sectiontwo.para.two"/><span className={styles.underlinedBlue}><FormattedMessage id="page.home.main.sectiontwo.para.two.blue"/></span><FormattedMessage id="page.home.main.sectiontwo.para.two.two"/></p>
+            <p className={styles.para}>
+              <FormattedMessage id="page.home.main.sectiontwo.para.one"/>
+                <Link href={'https://bcstats.shinyapps.io/so_data_viewer/'}><span className={styles.underlinedBlue}>
+                  <FormattedMessage id="page.home.main.sectiontwo.para.one.blue"/>
+                </span></Link>
+              <FormattedMessage id="page.home.main.sectiontwo.para.one.two"/>
+            </p>
+            <p className={styles.para}>
+              <FormattedMessage id="page.home.main.sectiontwo.para.two"/>
+              <Link href={'https://get.adobe.com/reader/'}><span className={styles.underlinedBlue}>
+                <FormattedMessage id="page.home.main.sectiontwo.para.two.blue"/>
+              </span></Link>
+              <FormattedMessage id="page.home.main.sectiontwo.para.two.two"/>
+            </p>
             <ul className={styles.list}>
-              <li className={styles.underlined}><FormattedMessage id="page.home.main.sectiontwo.listitem"/></li>
+              <li className={styles.underlined}>
+                <Link href={''}><FormattedMessage id="page.home.main.sectiontwo.listitem"/></Link></li>
             </ul>
             <div className={styles.controls}>
               <div className={styles.back}>
                 <p className={styles.goBack}><FormattedMessage id="page.home.main.goback"/></p>
-                <p className={styles.details}><FormattedMessage id="page.home.main.goback.title"/></p>
+                <Link href={'https://www.bcit.ca/programs/digital-design-and-development-diploma-full-time-6515dipma/?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh0kpvYS3GumL6QaO3hybpQ5yZZvWB3jWAEJKeJIijLjvJbV5MV74wYaAmqdEALw_wcB&gclsrc=aw.ds#details'}><p className={styles.details}><FormattedMessage id="page.home.main.goback.title"/></p></Link>
               </div>
               <div className={styles.forward}>
                 <p className={styles.nextUp}><FormattedMessage id="page.home.main.next"/></p>
-                <p className={styles.contact}><FormattedMessage id="page.home.main.next.title"/></p>
+                <Link href={'https://www.bcit.ca/programs/digital-design-and-development-diploma-full-time-6515dipma/?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh0kpvYS3GumL6QaO3hybpQ5yZZvWB3jWAEJKeJIijLjvJbV5MV74wYaAmqdEALw_wcB&gclsrc=aw.ds#contacts'}><p className={styles.contact}><FormattedMessage id="page.home.main.next.title"/></p></Link>
               </div>
             </div>
             <p className={styles.notice}><FormattedMessage id="page.home.main.bottom.para"/></p>
+          </div>
+          <div className={styles.tablet}>
+          <Sidebar className={styles.tablet}/>
+          </div>
+          <div>
+          <p className={styles.noticeTablet}><FormattedMessage id="page.home.main.bottom.para"/></p>
           </div>
       </main>
       <Footer/>

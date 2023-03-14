@@ -37,8 +37,17 @@
     font-weight: 700;
 }
 
+.bcitSite:hover {
+    color: var(--blue);
+}
+
 .blue {
     color: var(--bright-blue);
+}
+
+.blue:hover {
+    color: var(--blue);
+    cursor: pointer;
 }
 
 .contact {
@@ -46,6 +55,10 @@
     font-size: 14px;
     font-weight: 700;
     padding: 0.5rem 0;
+}
+
+.contact:hover {
+    color: var(--blue);
 }
 
 .bottomSec {
@@ -88,6 +101,10 @@
     padding-bottom: 1rem;
 }
 
+.link:hover {
+    color: var(--blue);
+}
+
 .header {
     font-size: 16px;
     line-height: 1.4rem;
@@ -114,6 +131,10 @@
     padding: 0.5rem 0 0.5rem;
 }
 
+.location:hover {
+    color: var(--blue);
+}
+
 .smallText {
     display: flex;
     flex-direction: row;
@@ -121,4 +142,60 @@
     color: var(--bright-blue);
     font-size: 14px;
     padding-top: 3rem;
+}
+
+.smallTextHover:hover {
+    color: var(--blue);
+}
+
+/* Desktop */ 
+@media only screen and (min-width: 1000px) {
+    
+}
+
+/* Tablet */
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+    .footer {
+        padding: 0 3rem 2rem;
+        justify-content: space-between;
+        color: var(--blue);
+    }
+    .colOne {
+        max-width: 10rem;
+    }
+    .address {
+        line-height: 1.5rem;
+    }
+    .contact {
+        line-height: 1.5rem;
+    }
+    .socials {
+        padding-right: 0rem;
+    }
+    .colTwo {
+        width: 10rem;
+    }
+    .colThree {
+        width: 10rem;
+    }
+    .colFour {
+        width: 10rem;
+        line-height: 2rem;
+    }
+    .smallText {
+        flex-direction: column;
+    }
+    .headerWithLineTwo {
+        gap: 0.5rem;
+    }
+    .lineTwo {
+        width: 4rem;
+        height: 0.1rem;
+    }
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+
 }
