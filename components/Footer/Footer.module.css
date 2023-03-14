@@ -3,9 +3,122 @@
     flex-direction: row;
     padding: 0 6rem 3rem;
     justify-content: space-between;
+    color: var(--blue);
+}
+
+.line {
+    width: 2rem;
+    height: 0.1rem;
+    background-color: var(--blue);
+    border-radius: 5px;
+}
+
+.headerWithLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.topSec {
+    padding: 1.5rem 1rem 1.5rem;
+}
+
+.address {
+    padding-bottom: 0.5rem;
+    font-size: 14px;
+}
+
+.bcitSite {
+    padding-bottom: 0.5rem;
+    font-size: 14px;
+    color: var(--bright-blue);
+    font-weight: 700;
+}
+
+.blue {
+    color: var(--bright-blue);
+}
+
+.contact {
+    color: var(--bright-blue);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0.5rem 0;
+}
+
+.bottomSec {
+    padding: 0 1rem 1rem;
+}
+
+.colOne {
+    max-width: 15rem;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+
+.colTwo {
+    font-size: 18px;
+    width: 15rem;
+    padding: 1rem;
+    color: var(--bright-blue);
+}
+
+.colThree {
+    font-size: 18px;
+    width: 15rem;
+    padding: 1rem;
+    color: var(--bright-blue);
+}
+
+.colFour {
+    font-size: 18px;
+    width: 15rem;
+    padding: 1rem;
+}
+
+.link {
+    padding-bottom: 1rem;
+}
+
+.header {
+    font-size: 16px;
+    line-height: 1.4rem;
+}
+
+.headerWithLineTwo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.lineTwo {
+    width: 2rem;
+    height: 0.1rem;
+    background-color: var(--blue);
+    border-radius: 5px;
+    margin-top: 0.70rem;
+}
+
+.location {
+    color: var(--bright-blue);
+    padding: 0.5rem 0 0.5rem;
 }
 
 .smallText {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    color: var(--bright-blue);
+    font-size: 14px;
+    padding-top: 3rem;
 }
